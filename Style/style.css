@@ -1,0 +1,75 @@
+body{
+    background-color: antiquewhite;
+}
+
+.text{
+    text-align: center;
+    font-size: 35px;
+}
+.form{
+    text-align: center;
+    position: relative;
+}
+.table{
+    background-color: aqua;
+    position: relative;
+    text-align: center;
+    left: 510px;
+    width: 300px;
+    height: 100px;
+    top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+#guess{
+    border-radius: 12px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#user-number{
+    font-size: 25px;
+}
+
+.footer{
+    background-color: black;
+    color: azure;
+    text-align: center;
+    bottom: -450px;
+    position: relative;
+}
+#view{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    left: 600px;
+}
+#message{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+#randNum{
+    text-align: center;
+    font-size: 40px;
+    color: blueviolet;
+}
+.main{
+    background-color: cadetblue;
+    width: 400px;
+    height: 300px;
+}
+ @media only screen and (min-width: 600px){
+     .form{
+         text-align: center;
+         margin-left: 0px;
+         margin-right: 0px;
+     }
+     .table{
+         text-align: center;
+         margin-left: 0px;
+         margin-right: 0px;
+     }
+ }
+
