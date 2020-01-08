@@ -5,6 +5,9 @@ var randomNum = Math.floor((Math.random() * 10) + 1);
 document.getElementById("guess").onclick = function () {
     var userNum = document.getElementById("user-number").value;
     console.log(randomNum);
+    if(tryCount == 2){
+        alert("Sorry, you reach the try limit! The number was: " + randomNum);
+    }
         if (randomNum == userNum) {
             document.getElementById("message").innerHTML = "CONGRATS! YOU GUESS MY NUMBER! WHICH WAS: ";
             document.getElementById("randNum").innerHTML = randomNum;
@@ -22,4 +25,5 @@ document.getElementById("guess").onclick = function () {
             tryCount++;
             document.getElementById("try").innerHTML = "TRY: " + tryCount;
         }
+
 };
