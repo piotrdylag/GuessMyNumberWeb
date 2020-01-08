@@ -1,6 +1,4 @@
-body{
-    background-color: antiquewhite;
-}
+
 
 .text{
     text-align: center;
@@ -22,11 +20,18 @@ body{
     border-width: 1px;
     border-color: black;
 }
-#guess{
+#guess {
     border-radius: 12px;
     font-size: 20px;
     padding-left: 10px;
 }
+#newGame{
+    position: relative;
+    border-radius: 12px;
+    font-size: 20px;
+    left: 450px;
+}
+
 #user-number{
     font-size: 25px;
 }
@@ -55,21 +60,17 @@ body{
     font-size: 40px;
     color: blueviolet;
 }
-.main{
-    background-color: cadetblue;
-    width: 400px;
-    height: 300px;
+#view{
+    left: 460px;
 }
  @media only screen and (min-width: 600px){
      .form{
          text-align: center;
-         margin-left: 0px;
-         margin-right: 0px;
+
      }
      .table{
          text-align: center;
-         margin-left: 0px;
-         margin-right: 0px;
+         left: 360px;
      }
  }
 
