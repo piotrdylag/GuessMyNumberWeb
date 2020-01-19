@@ -14,7 +14,6 @@
     background-color: aqua;
     position: relative;
     text-align: center;
-    right: 500px;
     width: 300px;
     height: 100px;
     top: 20px;
@@ -50,7 +49,7 @@
     width: 100px;
     height: 100px;
     background-color: cadetblue;
-    left: 600px;
+    left: 700px;
 }
 #message{
     text-align: center;
@@ -65,6 +64,66 @@
 #view{
     left: 460px;
 }
+.menu-top{
+    background-color: #3e4040;
+    height: 35px;
+    padding: 0;
+    margin: 0;
+}
+.menu-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+li{
+    display: inline;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 3px;
+    font-size: 20px;
+}
+.newgame{
+    left: 20px;
+}
+.contact-form{
+    position: center;
+    display: flex;
+    width: 400px;
+    height:500px ;
+    flex-direction: column;
+    -webkit-box-align: center;
+   padding-left: 550px;
+    padding-top: 200px;
+}
+.email{
+    display: block;
+    height: 25px;
+    border-top-width: initial;
+    border-right-width: initial;
+    border-left-width: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    padding: 10px;
+    border-style: none none solid ;
+}
+.message{
+    height: 200px;
+    resize: none;
+    border-top-width: initial;
+    border-right-width: initial;
+    border-left-width: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    padding: 10px;
+    border-style: none none solid;
+    border-radius: 0px;
+}
  @media only screen and (min-width: 600px){
      .form{
          text-align: center;
@@ -72,7 +131,11 @@
      }
      .table{
          text-align: center;
-         left: 360px;
+         left: 450px;
+     }
+     #view{
+         left: 550px;
      }
  }
+
 
