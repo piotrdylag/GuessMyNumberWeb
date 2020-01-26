@@ -12,7 +12,6 @@
 }
 .table{
     background-color: aqua;
-    position: relative;
     text-align: center;
     width: 300px;
     height: 100px;
@@ -20,6 +19,8 @@
     border-style: solid;
     border-width: 1px;
     border-color: black;
+    margin-left: 455px;
+    margin-top: 10px;
 }
 #guess {
     border-radius: 12px;
@@ -49,7 +50,7 @@
     width: 100px;
     height: 100px;
     background-color: cadetblue;
-    left: 700px;
+    margin-left: 100px;
 }
 #message{
     text-align: center;
@@ -79,6 +80,7 @@
 li{
     display: inline;
     position: relative;
+    padding-left: 4px;
 }
 a{
     text-decoration: none;
@@ -96,8 +98,8 @@ a{
     height:500px ;
     flex-direction: column;
     -webkit-box-align: center;
-   padding-left: 550px;
-    padding-top: 200px;
+    margin-left: 353px;
+    margin-top: 160px;
 }
 .email{
     display: block;
@@ -124,7 +126,14 @@ a{
     border-style: none none solid;
     border-radius: 0px;
 }
- @media only screen and (min-width: 600px){
+.send-mail-button{
+    width: 100px;
+    border-radius: 20%;
+}
+h1{
+    text-align: center;
+}
+ /*@media only screen and (min-width: 600px){
      .form{
          text-align: center;
 
@@ -137,5 +146,6 @@ a{
          left: 550px;
      }
  }
+ */
 
 
