@@ -17,7 +17,7 @@
     border-style: solid;
     border-width: 1px;
     border-color: black;
-    margin-left: 1080px;
+    margin-left: 500px;
     margin-top: 10px;
 }
 #guess {
@@ -29,7 +29,7 @@
     position: relative;
     border-radius: 12px;
     font-size: 20px;
-    left: 1080px;
+    left: 560px;
 }
 
 #user-number{
@@ -48,7 +48,7 @@
     width: 100px;
     height: 100px;
     background-color: cadetblue;
-    margin-left: 160px;
+    margin-left: 500px;
 }
 #message{
     text-align: center;
@@ -68,6 +68,7 @@
     height: 35px;
     padding: 0;
     margin: 0;
+    display: inline;
 }
 .menu-list{
     list-style-type: none;
@@ -134,13 +135,7 @@ h1{
 i.fa-bars{
     display: none;
 }
-.menu-top {
-    display: none;
-}
 
-.menu-top-mobile {
-    display: block;
-}
  @media only screen and (max-width: 600px) {
      .menu-top {
          display: none;
@@ -154,5 +149,14 @@ i.fa-bars{
 
      }
  }
+@media only screen and (min-width: 700px){
+    #view{
+        left: 100px;
+    }
+    .table{
+        left: 50px;
+    }
+
+}
 
 
